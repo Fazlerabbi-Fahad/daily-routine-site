@@ -2,7 +2,7 @@ import React from 'react';
 import './Activities.css'
 
 const Activities = (props) => {
-    console.log(props.activities);
+
     const { name, picture, time } = props.activities;
     return (
         <div className='activities'>
@@ -14,7 +14,7 @@ const Activities = (props) => {
                     <h5>Time : {time}min</h5>
                 </div>
             </div>
-            <button className='btn-cart'>
+            <button onClick={() => { props.addActivity(props.activities) }} className='btn-cart'>
                 <p>I will do this</p>
             </button>
         </div>

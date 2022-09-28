@@ -1,0 +1,38 @@
+[
+    {
+        "_id": "63349f2204d8302cd84bf066",
+        "picture": "https://blog.oxfordcollegeofmarketing.com/wp-content/uploads/2020/01/study-producivity-tools.jpg",
+        "time": 166,
+        "name": "Watch Classes"
+    },
+    {
+        "_id": "63349f2203527ffc8330cdb8",
+        "picture": "https://www.herzing.edu/sites/default/files/2020-09/final_exams.jpg",
+        "time": 181,
+        "name": "Practice"
+    },
+    {
+        "_id": "63349f2268b5887a2f537ef4",
+        "picture": "https://www.careerindia.com/img/2013/11/27-stdy8.jpg",
+        "time": 80,
+        "name": "Solve Problems"
+    },
+    {
+        "_id": "63349f22a1ae86fda32d19af",
+        "picture": "https://www.topuniversities.com/sites/default/files/articles/lead-images/Organise_a_study_group.jpg",
+        "time": 50,
+        "name": "Take Help"
+    },
+    {
+        "_id": "63349f2206a3f6ceb375ec17",
+        "picture": "https://i2.wp.com/news.iium.edu.my/wp-content/uploads/2017/02/Studying.jpg?w=2370&ssl=1",
+        "time": 55,
+        "name": "Practice Unsolved Problems"
+    },
+    {
+        "_id": "63349f2206a3f6ceb375ec17",
+        "picture": "https://www.wikihow.com/images/thumb/f/f0/Study-Step-17-Version-2.jpg/aid8503-v4-728px-Study-Step-17-Version-2.jpg",
+        "time": 20,
+        "name": "Take Notes"
+    }
+]

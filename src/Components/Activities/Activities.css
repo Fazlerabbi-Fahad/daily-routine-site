@@ -1,5 +1,32 @@
+.activities {
+    width: 260px;
+    height: 300px;
+    background-color: #dff9fb;
+    border-radius: 10px;
+    border: 2px solid #95afc0;
+    position: relative;
+}
+
 .activities img {
-    width: 300px;
+    width: 240px;
     height: 140px;
-    border-radius: 20px;
+    border-radius: 10px;
+    margin: 10px 10px 0px 10px;
+}
+
+.activities-name h4,
+h5 {
+    color: #535c68;
+    margin: 10px;
+}
+
+
+.btn-cart {
+    width: 100%;
+    background-color: #c7ecee;
+    padding-right: 50px;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
 }

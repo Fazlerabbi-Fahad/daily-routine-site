@@ -12,15 +12,20 @@ const Study = () => {
     }, []);
     return (
         <div className='study'>
-            <div>
-                {
-                    activities.map(activities => <Activities
-                        activities={activities}
-                        key={activities.id}
+            <div className='activity'>
+                <h1>Daily-Routine</h1>
+                <p>Select today's activities</p>
+                <div className='activity-container'>
 
-                    >
-                    </Activities>)
-                }
+                    {
+                        activities.map(activities => <Activities
+                            activities={activities}
+                            key={activities.id}
+
+                        >
+                        </Activities>)
+                    }
+                </div>
             </div>
             <div>
                 <p>gdvvd</p>

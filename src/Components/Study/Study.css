@@ -1,4 +1,25 @@
 .study {
+    background-color: #c7ecee;
     display: grid;
     grid-template-columns: 4fr 1fr;
+}
+
+.activity {
+    margin-top: 50px;
+}
+
+.activity h1,
+p {
+    margin-left: 50px;
+    color: #535c68;
+}
+
+.activity-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+
 }

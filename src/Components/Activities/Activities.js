@@ -6,15 +6,17 @@ const Activities = (props) => {
     const { name, picture, time } = props.activities;
     return (
         <div className='activities'>
-            <h1>Daily-Routine</h1>
-            <p>Select today's activities</p>
+
             <div>
                 <img src={picture} alt="" />
-                <div>
-                    <h2>Name: {name}</h2>
-                    <h4>Time : {time}min</h4>
+                <div className='activities-name'>
+                    <h4>Name: {name}</h4>
+                    <h5>Time : {time}min</h5>
                 </div>
             </div>
+            <button className='btn-cart'>
+                <p>I will do this</p>
+            </button>
         </div>
     );
 };

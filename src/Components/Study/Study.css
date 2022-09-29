@@ -2,6 +2,7 @@
     background-color: #c7ecee;
     display: grid;
     grid-template-columns: 4fr 1fr;
+    padding-bottom: 60px;
 }
 
 .activity {
@@ -22,4 +23,43 @@ p {
     margin-right: 50px;
     margin-top: 50px;
 
+}
+
+.profile-part {
+    position: sticky;
+    top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .study {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .profile-part {
+        margin-top: 50px;
+    }
+
+    .activity-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 40px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 992px) {
+    .study {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .profile-part {
+        margin-top: 50px;
+    }
+
+    .activity-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+    }
 }

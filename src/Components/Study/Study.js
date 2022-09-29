@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Activities from '../Activities/Activities';
+import Footer from '../Footer/Footer';
 import Profile from '../Profile/Profile';
 import './Study.css';
 
@@ -36,11 +37,14 @@ const Study = () => {
                     }
                 </div>
             </div>
-            <div>
+            <div className='profile-part'>
                 <Profile
                     classes={classes}>
 
                 </Profile>
+            </div>
+            <div>
+                <Footer></Footer>
             </div>
         </div>
     );

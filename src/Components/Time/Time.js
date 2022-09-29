@@ -2,6 +2,7 @@ import React from 'react';
 import './Time.css'
 
 const Time = (props) => {
+    console.log(props);
     const { time } = props;
     return (
         <div>

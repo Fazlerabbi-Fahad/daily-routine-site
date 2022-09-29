@@ -17,6 +17,7 @@ const Study = () => {
 
 
     const addActivity = (selectedActivity) => {
+
         const newClasses = [...classes, selectedActivity];
         setClasses(newClasses);
     };
